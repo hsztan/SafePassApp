@@ -1,0 +1,10 @@
+# Dart Sass configuration for Rails
+builds:
+  application.scss: application.css
+
+# Silence deprecation warnings
+build_options:
+  - --quiet-deps
+  - --silence-deprecation=global-builtin
+  - --silence-deprecation=color-functions
+  - --silence-deprecation=import

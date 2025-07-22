@@ -1,0 +1,9 @@
+// Sassy
+
+@use "../../../vendor/stylesheets/bootstrap/bootstrap.scss" as *;
+
+body {
+  h1 {
+    color: red;
+  }
+}
