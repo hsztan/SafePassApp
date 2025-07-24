@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, path: :secure
   get "/up", to: "rails/health#show", as: :rails_health_check
 
   get "/home", to: "pages#home"
